@@ -16,18 +16,37 @@ public class Lab {
 
         // Section Three - Uncomment this out when you get to this section
 //        double totalPrice = buyFunnelCake();
+//        System.out.printf("Spent $%.2f on a funnel cake!\n", totalPrice);
 //        totalPrice += buyCornDogs(3);
-//        System.out.printf("Spent $%.2f on fair food!", totalPrice);
+//        totalPrice += buyCornDogs(0);
+//        totalPrice += buyCornDogs(10);
+//        System.out.printf("Spent a total of $%.2f on fair food!", totalPrice);
 
     }
 
-    // Write the rideSwings() method
+    /**
+     * Write the rideSwings method
+     * Print a message about riding the swings
+     */
 
-    // Write the rideFerrisWheel() method
+    /**
+     * Write the rideFerrisWheel method
+     * @param times : int - number of times the Ferris Wheel is ridden
+     */
 
-    // Write the playGame() method
+    /**
+     * Write the playGame method
+     * Print a message to indicate if we won or lost the game
+     */
 
-    // Write the buyFunnelCake() method
+    /**
+     * Write the buyFunnelCake method
+     * @return double - cost of a funnel cake
+     */
 
-    // Write the buyCorndogs() method
+    /**
+     * Write the buyCornDogs method
+     * @param numberOfCornDogs : int - the number of corn dogs to purchase
+     * @return double - total cost of the number of corn dogs purchased
+     */
 }

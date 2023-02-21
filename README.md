@@ -31,7 +31,7 @@ Write a method to show the user riding the swings.
   - Don't forget that if the method doesn't return anything, it still needs a
     return type.
 - This method **must** be called `rideSwings`.
-- This method will not take in any parameters. 
+- This method will not take in any parameters.
 - The method should print "Whee! We're on the swings!"
 - Uncomment the first line in "Section One" that calls the `rideSwings()`
   method. Run the program and ensure it works as expected.
@@ -44,10 +44,15 @@ times.
 - This method **must** have the access modifiers `public static`.
 - This method will not return anything.
 - This method **must** be called `rideFerrisWheel`.
-- This method will take in an `int` value to specify the number of times the
+- This method will take in an `int` parameter to specify the number of times the
   ride will be ridden.
 - This method should print "We're riding the ferris wheel x times!"
   - Note that "x" represents the number of times the ride will be ridden.
+- This method should loop through the number of times the ferris wheel is to be
+  ridden and print "We're riding the ferris wheel!"
+  - For example, if the argument passed in is 6, then it should print the
+    message "We're riding the ferris wheel!" 6 times. If the argument passed in
+    is 3, then it should print the message 3 times.
 - Uncomment the second line in "Section One" that calls the `rideFerrisWheel(2)`
   method. Run the program and ensure it works as expected.
 
@@ -56,7 +61,8 @@ this:
 
 ```text
 Whee! We're on the swings!
-We're riding the ferris wheel 2 times!
+We're riding the ferris wheel!
+We're riding the ferris wheel!
 ```
 
 ## Section Two
@@ -104,7 +110,8 @@ In this section, write a method that returns a value.
 - This method will not take in any parameters.
 - The method should return 5.50 to indicate the price of a funnel cake.
 - Uncomment the first line in "Section Three" that calls the `buyFunnelCake()`
-  method. Run the program and ensure it works as expected.
+  method and the line after that prints the total. Run the program and ensure
+  it works as expected.
 
 ### buyCornDogs() method
 
@@ -115,14 +122,15 @@ In this section, write a method that returns a value.
   to be purchased.
 - The method should return the number of corn dogs multiplied by 2.25 to
   indicate how much the corn dogs cost.
-- Uncomment the second line in "Section Three" that calls the `buyCornDogs(3)`
-  method. Run the program and ensure it works as expected.
+- Uncomment the rest of the lines of code in "Section Three". Run the program
+  and ensure it works as expected.
 
 Once Section Three has been completed, the output of this section should look
 like this:
 
 ```text
-Spent $12.25 on fair food!
+Spent $5.50 on a funnel cake!
+Spent a total of $34.75 on fair food!
 ```
 
 ## Expected Output
@@ -132,9 +140,11 @@ This is an example of an expected output of the program:
 ```text
 Let's go to the fair!
 Whee! We're on the swings!
-We're riding the ferris wheel 2 times!
+We're riding the ferris wheel!
+We're riding the ferris wheel!
 We are the champions!
-Spent $12.25 on fair food!
+Spent $5.50 on a funnel cake!
+Spent a total of $34.75 on fair food!
 ```
 
 Here is another example of an expected output of the program:
@@ -142,11 +152,12 @@ Here is another example of an expected output of the program:
 ```text
 Let's go to the fair!
 Whee! We're on the swings!
-We're riding the ferris wheel 2 times!
+We're riding the ferris wheel!
+We're riding the ferris wheel!
 We lost - oh well. Better luck next time.
-Spent $12.25 on fair food!
+Spent $5.50 on a funnel cake!
+Spent a total of $34.75 on fair food!
 ```
 
 Remember, the output when you run it could be either of these since we are
 generating a pseudorandom value to determine if the user won or lost the game.
-
